@@ -1,0 +1,14 @@
+!# usr/bin/bash
+
+git add .
+
+echo "enter commit message: "
+
+read msg
+
+echo "pushing to github using the message: $msg"
+
+
+git commit -m "$msg"
+
+git push
